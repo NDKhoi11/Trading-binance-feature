@@ -1,3 +1,9 @@
+# Open chrome in window
+chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security
+# Open chrome in mac
+ open /Applications/Google\ Chrome.app --args --user-data-dir="/var/tmp/Chrome dev session" --disable-web-security
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
