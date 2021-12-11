@@ -89,7 +89,8 @@ const Trading = () => {
 				}
 				setIsLoading(false);
 				NotificationManager.success('Order Success', 'Create Order');
-			} catch {
+			} catch (error) {
+				console.error(error);
 				setIsLoading(false);
 				NotificationManager.error('Order Error', 'Create Order');
 			}
