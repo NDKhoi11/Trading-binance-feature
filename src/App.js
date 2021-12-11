@@ -1,9 +1,13 @@
 import React from "react";
+import MyTab from "./HeadLessUITab";
 import Trading from "./Trading";
 
 function App() {
   return (
-    <Trading />
+    <>
+      {/* <MyTab /> */}
+      <Trading />
+    </>
   );
 }
 
